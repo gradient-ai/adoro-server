@@ -31,7 +31,7 @@ jobs:
     needs:
       - ValidateModel
     resources:
-      instance-type: C3
+      instance-type: C4
     uses: script@v1
     with:
       script: |-
